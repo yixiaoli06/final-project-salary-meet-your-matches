@@ -13,12 +13,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 
-    <title>final-project-salary-meet-your-matches</title>
+    <title>final-project-landing-page</title>
 </head>
     <nav class="nav" style="background-color: #e3f2fd;">
         <ul class="ul">
-            <li class="li">
-            <img src="images/Indeed_2021_Logo_RGB_Blue.png" style="width:130px; height:50px;" alt="indeed-logo-dark">
+            <li class="li" id="logo">
+                <img src="images/Indeed_2021_Logo_RGB_Blue.png" style="width:130px; height:50px;" alt="indeed-logo-dark">
             </li>
             <li class="li">Find jobs
             </li>
@@ -33,56 +33,223 @@
         </ul>
     </nav>
 <body>
-
 <section>
-<h2>Meet your matches!</h2>
-<h4>We've prioritized coaches that best fit your selections.</h4>
-<div class="badge-description">
-    <img>
-    <p>This badge is to ensure you that this person has had a background check by us and are an Indeed certified salary coach.</p>
-</div>
-<section>
-<section>
-    <div class="coach-selections">
-        <div class="coach" style="width: 18rem;">
-            <img src="images/coach-hector-badge.png" class="card-img-top" alt="hector">
-            <div class="card-body">
-                <h5 class="card-title">Hector Salario</h5>
-                <p class="card-text">Bachelor’s in Business</p>
-                <p class="card-text">6 years in practice<br>Focus: Accounting, Finance, Health<br>Languages: English, Spanish</p>
-                <p class="card-text">Hector works with employees to remove performance blocks, drive engagement and elevate leadership skills. He also helps individuals clarify their personal values, resolve career stressors and align personal priorities with professional pursuits. Hector held leadership positions in the advertising and media industry for more than 20 years – with companies including: American Express, Time Warner and Hennes & Mauritz.</p>
-                <div class="schedule-button">
-                <a href="#" class="btn btn-primary">Let's schedule</a>
-                </div>
+    <div class="jumbotron">
+        <h1 class="display-4">Negotiate your desired pay like a pro with Salary Coach.</h1>
+        <p class="lead">Our data indicates that people who negotiate without outside support 
+            lose out on $7-20K a year and lose $1M over their career. Want to be sure you're getting the maximum salary you deserve? Let us connect you with a coach who can help guide you.</p>
+        <hr class="my-4">
+        <div class="heroCTAflex">
+            <div class="heroCTA-get-started">
+                <a class="btn btn-primary btn-lg" href="#get-started" role="button">Get started</a>
+            </div>
+            <div class="heroCTA-learn-more">
+                <a class="btn btn-outline-primary btn-lg" id="alt-btn-style" href="#learn-more" role="button">Learn more</a>
             </div>
         </div>
-        <div class="coach" style="width: 18rem;">
-            <img src="images/coach-mallory-badge.png" class="card-img-top" alt="mallory">
-            <div class="card-body">
-                <h5 class="card-title">Mallory Suweldo</h5>
-                <p class="card-text">Master’s in Business</p>
-                <p class="card-text">5 years in practice<br>Finance, Entertainment, Law<br>English, Tagalog, French</p>
-                <p class="card-text">I teach women how to take responsibility for realizing their personal and economic potential. Having helped over 10,000 women get back on track with a purpose-driven career, and get paid what they deserve, Olivia is an award-winning author and sought after International Speaker. Olivia is on a mission to help ambitious, driven women break through the glass ceilings that keep them from living their purpose and earning what they deserve. </p>
-                <div class="schedule-button">
-                <a href="https://yixiaoli06.github.io/final-project-salary-coach-selection-page/" class="btn btn-primary">Let's schedule</a>
-                </div>
-            </div>
-        </div>
-        <div class="coach" style="width: 18rem;">
-            <img src="images/coach-sara-badge.png" class="card-img-top" alt="sara">
-            <div class="card-body">
-                <h5 class="card-title">Sara Saelleoli</h5>
-                <p class="card-text">Bachelor’s in Media Studies</p>
-                <p class="card-text">5 years in practice<br>Focus: Medical, Tech<br>Languages: English, Korean, Spanish</p>
-                <p class="card-text">Sara’s approach to coaching is highly strengths-based, goal-oriented, and experiential, and she believes greatly in empowering her clients to step into bigger challenges and pursue changes with exponential impact. When she’s not coaching, Sara loves any chance to curl up with a book or get out and enjoy the sun, sand, and trails with her dog in California. And the best part is, she passes the vibe check.</p>
-                <div class="schedule-button">
-                <a href="#" class="btn btn-primary">Let's schedule</a>
-                </div>
-            </div>
+        <div class="read-reviews-container">
+            <a class="read-reviews" href="#read-reviews">Read reviews</a>
         </div>
     </div>
+</section>
+<section>
+    <div class="intro">
+        <h2 id="learn-more">We are here for your successful future.</h2>
+        <p>Navigating seem difficult and intimidating but our goal is to make you feel confident and show you how involved or laidback the process can be. We will coach you through every step of the negotiation, from sneaking in pre-negotiation techniques during initial information gathering requests to handling any impromptu calls from your recruiter that may arise during the negotiation, or negotiating your current salary to be increased for only $30 per session. 
+            Follow the next 3 steps to get the salary you deserve.</p>
+    </div>
+    <div class="intro-cards">
+        <div class="flex-container">
+            <div class="intro-icon">
+                <img src="images/icon-step-1.png" style="width:50px; height:50px;" alt="icon-step-1">
+            </div>
+            <h4>Tell us about yourself</h4>
+            <p>We want to know about your current salary, all the communication you have with the company so far, and what the offer is.</p>
+        </div>
+        <div class="flex-container">
+            <div class="intro-icon">
+                <img src="images/icon-step-2.png" style="width:50px; height:50px;" alt="icon-step-2">
+            </div>
+            <h4>Book a salary coach</h4>
+            <p>We provide the survey to match you with the best coach. Explore our roster of top-notch salary coaches who provide the service you need. </p>
+            <div class="central-btn">
+                <a class="btn btn-primary btn-lg" id="introCTA" href="#get-started" role="button">Get started</a>
+            </div>
+            </div>
+        <div class="flex-container">
+            <div class="intro-icon">
+                <img src="images/icon-step-3.png" style="width:50px; height:50px;" alt="icon-step-3">
+            </div>
+            <h4>Get started</h4>
+            <p>Meet with your salary coach for a session by phone or video—and kick your career into high gear only for</p>
+            <p class="price">$30 per session!</p>
+        </div>
+    </div>
+    </div>
+    <div class="find-coach">
+        <h2>Find a Salary Coach</h2>
+        <p>Before we get started with finding you a coach to help you get the salary that you desire, we want you to know that achieving your full potential requires a lot of self-knowledge, courage, and - let’s be honest - work. With Indeed Salary Coach, a licensed professional coach will be right there with you, helping you on steps to take along with one-on-one pratice so that you can have that conversation with your employer or interviewer to get the salary that you desire.</p>
+    </div>
+</section>
+<section>
+    <div class="form">
+        <div class="heading">
+            <h3 id="get-started">Let's get started</h3>
+            <p>Please choose an answer that best represents you.</p>
+        </div>
+        <div class="q1">
+            <h5>What are you looking to negotiate?</h5>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                <label class="form-check-label" for="exampleRadios1">
+                My salary at my current place of work
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                A salary offer for a new job
+                </label>
+            </div>
+        </div>
+        <div class="q2">
+            <h5>What industry?</h5>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option3" >
+                <label class="form-check-label" for="exampleRadios3">
+                Construction
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option4">
+                <label class="form-check-label" for="exampleRadios4">
+                Education
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option5" >
+                <label class="form-check-label" for="exampleRadios5">
+                Restaurant  
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option6">
+                <label class="form-check-label" for="exampleRadios6">
+                Pharmaceutical
+                </label>
+            </div>
+        </div>
+        <div class="q3">  
+            <h5>In what ways have negotiating held you back from getting your desired salary?</h5>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                I have all the information to present, but not sure how to present it
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                Not sure how to start the conversation and how to respond
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                Lack of confidence
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                I don’t know when is a good time to have the salary conversation with my employer
+                </label>
+            </div>
+        </div>
+        <div class="q4">  
+            <h5>I'm looking for a coach that will</h5>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1"></label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                <option>please select one</option>
+                <option>teach me with negotiation techniques</option>
+                <option>have mock negotiation sessions with me</option>
+                <option>run me through different negotiation scenarios</option>
+                <option>help me review</option>
+                </select>
+            </div>
+        <div class="q5">
+            <h5>I prefer my provider to be:</h5>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                <label class="form-check-label" for="exampleRadios1">
+                Male
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                Female
+                </label>
+            </div>
+        <div class="end-of-form">
+            <h5>You are finished!</h5>
+            <a class="btn btn-primary btn-lg" href="https://yixiaoli06.github.io/final-project-salary-meet-your-matches/" role="button">Meet your matches</a>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="review">
+        <div class="review-container">
+
+            <div class="review-left">
+                <h2 id="read-reviews">What people are saying</h2>
+                <div class="formCTA">
+                    <div class="form-btn-get-started">
+                        <a class="btn btn-primary btn-lg" id="formbutton" href="#get-started" role="button">Get started</a>
+                    </div>
+                    <div class="form-btn-learn-more">
+                        <a class="btn btn-primary btn-lg" id="formbuttons-alt" href="#learn-more" role="button">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-right">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/review-1-kiara.png" class="d-block w-100" alt="review-1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/review-2-will.png" class="d-block w-100" alt="review-2">
+                        </div>
+                        <div class="carousel-item"> 
+                            <img src="images/review-3-andrea.png" class="d-block w-100" alt="review-3">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 
 
+<section>
     <div class="footer">
         <div class="light-logo">
             <img src="images/Indeed_2021_Logo_RGB_White.png" style="width:130px; height:50px;" alt="indeed-logo-light"> 
@@ -94,21 +261,16 @@
         <div class="explore-indeed-cont">
             <h4 id="footerheading"><br></h4>
             <p class="lead">Find jobs<br>Company Reviews<br>Find salaries<br>Salary coach</p>
-        </div>
-        <div class="resources">
+          </div>
+          <div class="resources">
             <h4 id="footerheading">Resources</h4>
             <p class="lead">Find jobs<br>Company Reviews<br>Find salaries<br>Salary coach</p>
-        </div>
-        <div class="follow-us">
+          </div>
+          <div class="follow-us">
             <h4 id="footerheading">Follow us</h4>
-        </div>
+          </div>
       </div>
-      <div class="copyright">
-        <p id="textcopy">©2021 Indeed - Do Not Sell My Personal Information - Accessibility at Indeed - Privacy Center - Cookies - Privacy</p>
-    </div>
 </section>
-
-
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
