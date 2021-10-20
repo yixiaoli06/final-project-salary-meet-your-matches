@@ -17,8 +17,16 @@ text-align: center;
 }
 
 .badge-description{
+display:flex;
+flex-direction: row;
+justify-content: center;
 text-align: center;
 padding: 30px;
+margin-bottom: 20px;
+}
+
+#badge{
+margin-right: 15px;
 }
 
 a{
@@ -37,7 +45,7 @@ margin-left: 10px;
 .nav li{
 display: inline-block;
 font-size: 16px;
-padding: 10px;
+padding: 20px 0px 0px 20px;
 text-align: end;
 float: left;
 }
@@ -46,15 +54,21 @@ float: left;
 color: #CC006E;
 }
 
+#logo{
+padding: 0px;
+margin-left: 10px;
+}
+
 ul{
 width: 100%;
 text-align: center;
-padding: 20px 0px 0px 0px;
+padding: 10px 0px 0px 0px;
 }
 
 #upper-right{
 float: right;
-padding: 10px;
+padding: 20px 0px 0px 20px;
+margin-right: 20px;
 }
 
 .coach-selections{
@@ -125,6 +139,15 @@ width: 100%;
 .follow-us{
 padding: 30px;
 width: 100%;
+}
+
+.social-media{
+display: flex;
+flex-direction: row;
+}
+
+.social-media-icons{
+padding: 5px;
 }
 
 #footerheading{
